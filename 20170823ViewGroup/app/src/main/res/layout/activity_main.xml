@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hw.a20170823viewgroup.MainActivity">
+
+    <ListView
+        android:id="@+id/top_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_below="@+id/top_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="这是分割视图"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <ListView
+        android:layout_below="@+id/text_view"
+        android:id="@+id/bottom_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
