@@ -2,6 +2,9 @@
 
 ### 自定义 AndroidTagView，禁止拦截点击事件
 
+效果图：
+![image](https://github.com/hw20101101/TagViewDemo/blob/master/WechatIMG45.jpeg)
+
 - 创建一个类并继承 TagContainerLayout，重写 dispatchTouchEvent 方法：
  ![image](https://github.com/hw20101101/TagViewDemo/blob/master/WX20170824-113927%402x.png)
 
